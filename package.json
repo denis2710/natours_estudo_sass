@@ -1,0 +1,15 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "um projeto para estudo de css",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "node-sass src/sass/main.sass public/css/style.css  --output-style compressed ",
+    "watch-sass": "nodemon -e sass -x \"npm run compile-sass\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
